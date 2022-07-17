@@ -35,5 +35,16 @@ models:
   ae_bootcamp:
     # Config indicated by + and applies to all files under models/example/
     staging:
+      +enabled: true
       +materialized: view
       +schema: staging
+    warehouse:
+      +enabled: true
+      +materialized: table
+      +schema: dwh
+      dim_date:
+        +materialized: view
+    marts:
+      +enabled: true
+      +materialized: table
+      +schema: marts
