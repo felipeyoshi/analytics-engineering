@@ -60,3 +60,29 @@ Happy modeling!
 04:31:52.920269 [debug] [MainThread]: On debug: Close
 04:31:53.321533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8026d186a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f802555e1d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f802555e050>]}
 04:31:54.205771 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-07-18 14:41:57.109566 | 42eb0b23-892c-4b29-a7f8-acb18428ca53 ==============================
+14:41:57.109584 [info ] [MainThread]: Running with dbt=1.1.1
+14:41:57.111475 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/root/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'axim', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+14:41:57.112668 [debug] [MainThread]: Tracking: tracking
+14:41:57.116392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2ac96740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2ac96890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2ac96830>]}
+14:41:57.119041 [debug] [MainThread]: Starter project path: /mnt/c/venv/dbt-env/lib/python3.10/site-packages/dbt/include/starter_project
+14:44:37.518683 [info ] [MainThread]: Profile axim written to /root/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+14:44:37.520366 [info ] [MainThread]: 
+Your new dbt project "axim" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+14:44:37.521949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2ac47910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2ac96a70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2ac96830>]}
