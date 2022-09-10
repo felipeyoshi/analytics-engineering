@@ -17,7 +17,6 @@ with source as (
     country_region,
     web_page,
     notes,
-    attachments,
     current_timestamp() as insertion_timestamp
 from {{ref('stg_customer')}}
 ),
